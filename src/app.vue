@@ -92,10 +92,8 @@ export default {
     locales: [
       { value: 'en', text: 'English' },
       { value: 'fr', text: 'French' },
-      { value: 'de', text: 'German' },
       { value: 'nl', text: 'Dutch' },
-      { value: 'ca', text: 'Catalan' },
-      { value: 'it', text: 'Italian' }
+      { value: 'ca', text: 'Catalan' }
     ],
     defaultEvents: [
       {

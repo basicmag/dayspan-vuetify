@@ -14,10 +14,6 @@ This library is nearing functional completion (documentation on every component,
 
 [Current documentation](docs/README.md)
 
-### Notice
-
-- This library uses v-html in a few places (to display event details for example) so you must sanitize your own data against XSS vulnerabilities.
-
 ## Usage
 
 Install with `npm install --save dayspan-vuetify`
@@ -171,15 +167,6 @@ import nl from 'dayspan-vuetify/src/locales/nl';
 import Vue from 'vue';
 // dayspan-vuetify should already be loaded at this point
 Vue.$dayspan.addLocales(['nl', 'nl-NL', 'nl-BE'], nl);
-```
-
-#### German Locale
-
-```javascript
-import de from 'dayspan-vuetify/src/locales/de';
-import Vue from 'vue';
-// dayspan-vuetify should already be loaded at this point
-Vue.$dayspan.addLocales(['de', 'de-DE', 'de-CH', 'de-AT', 'de-BE', 'de-IT', 'de-LI', 'de-LU'], de);
 ```
 
 #### Catalan Locale
